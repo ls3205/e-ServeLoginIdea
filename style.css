@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Metropolis;
     background: rgb(226, 16, 16);
 }
 
@@ -61,6 +61,18 @@ body{
 .box button:hover{
     background: rgb(226, 16, 16);
     color: white;
+}
+
+.box a{
+    font-size: 10;
+    font-weight: 500;
+    color: #690e0c;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.box a:hover{
+    color:rgb(226, 16, 16);
 }
 
 .loggedin{
