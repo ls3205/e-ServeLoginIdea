@@ -24,6 +24,7 @@ body{
 }
 
 .box input[type="text"], .box input[type="Password"]{
+    font-family: Metropolis;
     border: 0px;
     background: none;
     display: block;
@@ -44,6 +45,7 @@ body{
 }
 
 .box button{
+    font-family: Metropolis;
     border: 0px;
     background: none;
     display: block;
