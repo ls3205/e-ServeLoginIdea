@@ -7,35 +7,15 @@
     <link rel="icon" type="image/png" href="https://ess.e-serve.ch/web/solution/img/Logo/eServeIcon.png">
     <title>e-Serve Login</title>
     <link rel="stylesheet" href="style.css">
-
-    <script>
-        function show(shown, hidden) {
-            document.getElementById(shown).style.display = 'block';
-            document.getElementById(hidden).style.display = 'none';
-            return false;
-        }
-    </script>
 </head>
 
-<div id="Login Page">
-
-    <body>
-        <form class="box" action="index.html" method="post">
-            <h1>Login</h1>
-            <input type="text" id="Username" name="Username" placeholder="Username">
-            <input type="password" id="Password" name="Password" placeholder="Password">
-            <input type="submit" name="Login" value="Login" onclick="return show('Logged In','Login Page');">
-        </form>
-    </body>
-</div>
-
-<div id="Logged In" style="display: none;">
-
-    <body>
-        <div class="loggedin">
-            <h1>Logged In</h1>
-        </div>
-    </body>
-</div>
+<body>
+    <div class="box">
+        <h1>Login</h1>
+        <input type="text" id="Username" name="Username" placeholder="Username">
+        <input type="password" id="Password" name="Password" placeholder="Password">
+        <button onclick="location.href = 'loggedin.html'" id="Submit">Login</button>
+    </div>
+</body>
 
 </html>
